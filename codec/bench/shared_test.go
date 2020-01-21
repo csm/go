@@ -47,9 +47,9 @@ import (
 	"io/ioutil"
 	"log"
 	"sync"
-)
 
-import . "github.com/ugorji/go/codec"
+	. "github.com/csm/go/codec"
+)
 
 type testHED struct {
 	H Handle

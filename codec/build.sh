@@ -120,7 +120,7 @@ run("mammoth2-test.go.tmpl", "mammoth2_generated_test.go")
 }
 EOF
 
-    sed -e 's+// __DO_NOT_REMOVE__NEEDED_FOR_REPLACING__IMPORT_PATH__FOR_CODEC_BENCH__+import . "github.com/ugorji/go/codec"+' \
+    sed -e 's+// __DO_NOT_REMOVE__NEEDED_FOR_REPLACING__IMPORT_PATH__FOR_CODEC_BENCH__+import . "github.com/csm/go/codec"+' \
         shared_test.go > bench/shared_test.go
 
     # explicitly return 0 if this passes, else return 1
@@ -156,7 +156,7 @@ _prebuild() {
     local d="$PWD"
     local zfin="test_values.generated.go"
     local zfin2="test_values_flex.generated.go"
-    local zpkg="github.com/ugorji/go/codec"
+    local zpkg="github.com/csm/go/codec"
     # zpkg=${d##*/src/}
     # zgobase=${d%%/src/*}
     # rm -f *_generated_test.go 
