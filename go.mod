@@ -1,3 +1,3 @@
-module github.com/ugorji/go
+module github.com/csm/go
 
-require github.com/ugorji/go/codec v1.1.7
+require github.com/csm/go/codec v1.1.7
