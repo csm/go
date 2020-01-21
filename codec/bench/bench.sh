@@ -3,7 +3,7 @@
 # download the code and all its dependencies 
 _go_get() {
     go get -u \
-       "github.com/ugorji/go/codec" "github.com/ugorji/go/codec"/codecgen \
+       "github.com/csm/go/codec" "github.com/csm/go/codec"/codecgen \
        github.com/tinylib/msgp/msgp github.com/tinylib/msgp \
        github.com/pquerna/ffjson/ffjson github.com/pquerna/ffjson \
        github.com/Sereal/Sereal/Go/sereal \
